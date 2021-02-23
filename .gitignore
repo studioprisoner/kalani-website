@@ -32,3 +32,8 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+
+#netlify build
+/out_publish/
+/out_functions/
