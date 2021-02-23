@@ -6,7 +6,7 @@ import SiteContext from 'context/site-context';
 import CartContext from 'context/cart-context';
 import useCartContext from 'hooks/use-cart-context.js';
 
-import Nav from 'components/nav';
+import Nav from 'components/Nav'
 
 
 const context = {
