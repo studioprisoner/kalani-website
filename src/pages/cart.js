@@ -8,7 +8,7 @@ import useCart from 'hooks/use-cart';
 
 import Table from 'components/Table';
 import CartQuantity from 'components/CartQuantity';
-import Footer from 'components/fo'
+import Footer from 'components/Footer'
 
 import products from 'data/products.json';
 
