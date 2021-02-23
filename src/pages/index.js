@@ -4,7 +4,7 @@ import Link from 'next/link';
 import useSite from 'hooks/use-site';
 import useCart from 'hooks/use-cart';
 
-import Subscribe from 'components/subscribe'
+import Subscribe from 'components/Subscribe';
 import ProductGrid from 'components/ProductGrid'
 import Footer from 'components/Footer';
 
