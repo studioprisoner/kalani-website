@@ -4,3 +4,7 @@ const images = require('next-images');
 module.exports = withPlugins([
     images
 ]);
+
+module.exports = {
+    target: "serverless",
+}

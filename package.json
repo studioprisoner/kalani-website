@@ -31,5 +31,10 @@
     "next-on-netlify": "^2.8.7",
     "postcss": "^8.2.6",
     "tailwindcss": "^2.0.3"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "postbuild": "next-on-netlify"
   }
 }
