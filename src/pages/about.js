@@ -1,11 +1,11 @@
 import Head from 'next/head';
-import Footer from 'components/Footer/Footer.js'
+import Footer from 'components/Footer';
 
 const About = () => {
     return (
         <div>
             <Head>
-                <title>Kalani Flowers - About</title>
+                <title>Kalani Flowers - Our Journey</title>
             </Head>
             <div class="relative bg-white mt-1">
                 <div class="lg:absolute lg:inset-0">
