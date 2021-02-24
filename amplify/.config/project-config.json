@@ -1,0 +1,17 @@
+{
+  "projectName": "kalaniwebsite",
+  "version": "3.0",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "react",
+    "config": {
+      "SourceDir": "src",
+      "DistributionDir": "build",
+      "BuildCommand": "next build && next export",
+      "StartCommand": "next start"
+    }
+  },
+  "providers": [
+    "awscloudformation"
+  ]
+}
