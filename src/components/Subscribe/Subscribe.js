@@ -37,7 +37,7 @@ function Subscribe() {
   return (
       <section>
         <div className="bg-mongoose-400">
-            <div className="max-w-7xl mx-auto py-12 px-4 sm:mx-6 lg:py-16 lg:px-8 lg:flex lg:items-center justify-between">
+            <div className="max-w-full mx-auto py-12 px-4 sm:mx-6 lg:py-16 lg:px-8 lg:flex lg:items-center">
                 <div className="lg:w-auto lg:flex-1">
                     <h2 className="text-3xl font-extrabold tracking-tight text-almond-300 sm:text-4xl" id="newsletter-headline">
                         Sign up for our Newsletter
