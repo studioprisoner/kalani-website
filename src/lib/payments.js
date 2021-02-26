@@ -3,7 +3,7 @@ import { loadStripe } from '@stripe/stripe-js';
 const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_API_KEY);
 
 const WEBSITE_HOST = process.env.NEXT_PUBLIC_WEBSITE_HOST;
-const PAYMENT_SUCCESS_PATH = '/success';
+const PAYMENT_SUCCESS_PATH = 'https://kalani-website.vercel.app/success';
 const PAYMENT_CANCEL_PATH = '/';
 
 export async function initCheckout({ lineItems } = {}) {
