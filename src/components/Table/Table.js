@@ -14,18 +14,18 @@ const Table = ({ data, columns }) => {
               )
             })}
           </tr>
+          </thead>
           <tbody className="bg-white divide-y divide-gray-200">
             {rows.map((row, index) => {
               return (
                 <tr key={index}>
                   { row.map((cell, index) => {
-                    return <td className="px-6 py-4 whitespace-nowrap" key={index}>{ cell }</td>
+                    return <td className="px-6 py-4 whitespace-nowrap text-sm font-medium" key={index}>{ cell }</td>
                   })}
                 </tr>
               )
             })}
           </tbody>
-        </thead>
       </table>
     )
   }

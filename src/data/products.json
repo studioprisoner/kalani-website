@@ -2,7 +2,7 @@
     {
         "id": 1,
         "sku": "price_0IBbbKKYxsnvsuZdE3DowZTh",
-        "title": "Flower Arrangement 1",
+        "name": "Flower Arrangement 1",
         "description": "Treat that special someone with this arrangement",
         "image": "/images/flowers/flowers_1.jpg",
         "price": 30.00
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "sku": "price_0IBbcdKYxsnvsuZdhKFhIMa2",
-        "title": "Flower Arrangement 2",
+        "name": "Flower Arrangement 2",
         "description": "This center piece will brighten up any house.",
         "image": "/images/flowers/flowers_2.jpg",
         "price": 40.00
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "sku": "price_0IBbd1KYxsnvsuZdT7HIO3bi",
-        "title": "Flower Arrangement 3",
+        "name": "Flower Arrangement 3",
         "description": "For a special occasion.",
         "image": "/images/flowers/flowers_3.jpg",
         "price": 25.00
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "sku": "price_0IBbegKYxsnvsuZdCuXuKUy3",
-        "title": "Flower Arrangement 4",
+        "name": "Flower Arrangement 4",
         "description": "A coastal arrangement to bring the beach to you.",
         "image": "/images/flowers/flowers_4.jpg",
         "price": 60.00

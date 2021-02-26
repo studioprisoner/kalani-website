@@ -22,7 +22,7 @@ const CartQuantity = ({ id, quantity, onUpdate }) => {
     <form onSubmit={handleOnSubmit}>
       <input name="id" type="hidden" value={id || ''} />
       <input name="quantity" type="number" min={0} defaultValue={quantity} />
-      <button>Update</button>
+      <button className="text-indigo-600 hover:text-indigo-900">Update</button>
     </form>
   )
 }

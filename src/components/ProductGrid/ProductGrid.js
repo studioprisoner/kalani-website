@@ -4,30 +4,30 @@ import { formatCurrency } from '../../lib/currency';
 
 const ProductGrid = ({ products = [], onAddToCart }) => {
     return (
-        <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-4 px-4 lg:max-w-none">
+        <div className="max-w-7xl mx-auto mt-12 grid gap-5 lg:items-center lg:justify-between lg:grid-cols-4 px-4">
                     {products.map(product => {
                         return (
-                            <div key={product.id} className="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                            <div key={product.id} className="flex flex-col rounded-lg shadow-lg overflow-hidden min-h-full">
                                 <div className="flex-shrink-0">
-                                    <Link href={`/products/${product.id}`}>
+                                    <Link href={`/product/${product.id}`}>
                                     <a>
                                     <img className="h-48 w-full object-cover" src={product.image} alt={product.title} />
                                     </a>
                                     </Link>
                                 </div>
-                                <div className="flex-1 bg-white p-6 flex flex-col justify-between">
-                                    <div className="flex-1">
+                                <div className="flex-1 bg-white p-6 flex flex-col justify-between md:h-64 md:min-h-full">
+                                    <div className="">
                                         <p className="text-sm font-medium text-rose-bud-500 uppercase">
                                             <Link href={`/product/${product.id}`}>
                                             <a className="hover:underline">
-                                                {product.title}
+                                                {product.name}
                                             </a>
                                             </Link>
                                         </p>
                                         <p className="mt-3 text-mongoose-700 font-bold">
                                             { formatCurrency(product.price) }
                                         </p>
-                                        <p className="my-3 text-base text-gray-500">
+                                        <p className="my-3 text-base text-gray-500 md:h-12">
                                             {product.description}
                                         </p>
                                         <p>

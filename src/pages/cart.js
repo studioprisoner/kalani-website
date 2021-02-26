@@ -33,7 +33,6 @@ export default function Home() {
     return {
       id,
       name,
-      image,
       quantity,
       price: formatCurrency(pricePerUnit),
       update: <CartQuantity id={id} quantity={quantity} onUpdate={handleOnUpdateItem} />,
@@ -99,12 +98,12 @@ export default function Home() {
       </Helmet>
 
       <div className="flex flex-col">
-        <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+        <div className="-my-2 sm:-mx-6 lg:-mx-8">
           <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
             <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
               <Table data={data} columns={columns} />
-
-              {data.length > 0 && (
+            </div>
+            {data.length > 0 && (
                 <p>
                   <button className="mt-8 block w-full bg-almond-300 border border-almond-300 rounded-md py-2 text-sm font-semibold text-rose-bud-500 text-center hover:bg-almond-500 hover:border-almond-500" onClick={handleOnCheckout}>Check Out with Stripe</button>
                 </p>
@@ -115,7 +114,6 @@ export default function Home() {
                   No items in your cart. <Link href="/"><a>Go add something</a></Link>!
                 </p>
               )}
-            </div>
           </div>
         </div>
       </div>
