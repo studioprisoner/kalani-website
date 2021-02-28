@@ -6,7 +6,7 @@ import { initCheckout } from 'lib/payments';
 import useSite from 'hooks/use-site';
 import useCart from 'hooks/use-cart';
 
-import Table from 'components/Table';
+import CartComp from 'components/CartComp';
 import CartQuantity from 'components/CartQuantity';
 import Footer from 'components/Footer'
 
@@ -27,14 +27,13 @@ export default function Home() {
   // suitable for the Table component
 
   data = data.map(item => {
-    const { id, image, quantity, pricePerUnit } = item;
+    const { id, quantity, pricePerUnit } = item;
     const product = products.find(({ id: pid }) => pid === id);
     const { name } = product;
     return {
       id,
       name,
       quantity,
-      price: formatCurrency(pricePerUnit),
       update: <CartQuantity id={id} quantity={quantity} onUpdate={handleOnUpdateItem} />,
       total: formatCurrency(quantity * pricePerUnit)
     }
@@ -101,7 +100,7 @@ export default function Home() {
         <div className="-my-2 sm:-mx-6 lg:-mx-8">
           <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
             <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
-              <Table data={data} columns={columns} />
+              <CartComp data={data} columns={columns} />
             </div>
             {data.length > 0 && (
                 <p>
