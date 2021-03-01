@@ -7,6 +7,7 @@ import useSite from 'hooks/use-site';
 import useCart from 'hooks/use-cart';
 
 import CartComp from 'components/CartComp';
+import Table from 'components/Table';
 import CartQuantity from 'components/CartQuantity';
 import Footer from 'components/Footer'
 
@@ -31,7 +32,6 @@ export default function Home() {
     const product = products.find(({ id: pid }) => pid === id);
     const { name } = product;
     return {
-      id,
       name,
       quantity,
       update: <CartQuantity id={id} quantity={quantity} onUpdate={handleOnUpdateItem} />,
@@ -49,12 +49,8 @@ export default function Home() {
       Header: 'Quantity'
     },
     {
-      columnId: 'price',
-      Header: 'Price Per Item'
-    },
-    {
       columnId: 'total',
-      Header: 'Item Total'
+      Header: 'Total'
     }
   ];
 
@@ -97,22 +93,24 @@ export default function Home() {
       </Helmet>
 
       <div className="flex flex-col">
-        <div className="-my-2 sm:-mx-6 lg:-mx-8">
-          <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
-            <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
-              <CartComp data={data} columns={columns} />
+      <h1 className="my-3 text-3xl tracking-tight font-extrabold text-rose-bud-500 sm:text-4xl">My Shopping Cart</h1>
+        <div className="sm:-mx-6 lg:-mx-8">
+          <div className="py-2 sm:px-1 lg:px-8">
+            <div className="shadow border-b border-gray-200 sm:rounded-lg">
+              <Table data={data} columns={columns} />
             </div>
+            <div className="">
             {data.length > 0 && (
-                <p>
-                  <button className="mt-8 block w-full bg-almond-300 border border-almond-300 rounded-md py-2 text-sm font-semibold text-rose-bud-500 text-center hover:bg-almond-500 hover:border-almond-500" onClick={handleOnCheckout}>Check Out with Stripe</button>
-                </p>
-              )}
-
-              {data.length === 0 && (
-                <p>
-                  No items in your cart. <Link href="/"><a>Go add something</a></Link>!
-                </p>
-              )}
+                  <p>
+                    <button className="mt-8 block w-full bg-almond-300 border border-almond-300 rounded-md py-2 text-sm font-semibold text-rose-bud-500 text-center hover:bg-almond-500 hover:border-almond-500" onClick={handleOnCheckout}>Check Out with Stripe</button>
+                  </p>
+            )}
+            {data.length === 0 && (
+              <p className="my-6 text-base text-gray-500">
+                No items in your cart. <Link href="/"><a className="text-base font-semibold underline text-mongoose-500 hover:text-mongoose-700">Go add something</a></Link>!
+              </p>
+            )}
+          </div>
           </div>
         </div>
       </div>

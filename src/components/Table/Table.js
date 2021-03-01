@@ -5,17 +5,17 @@ const Table = ({ data, columns }) => {
     });
   
     return (
-      <table className="min-w-full divide-y divide-gray-200">
-        <thead className="bg-gray-50">
-          <tr>
+      <table className="w-full">
+        <thead>
+          <tr className="bg-apricot-peach-500 h-10">
             {columns.map(({ columnId, Header }) => {
               return(
-                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider" key={columnId}>{ Header }</th>
+                <td scope="col" className="pl-6 text-xs font-mediu uppercase tracking-wider" key={columnId}>{ Header }</td>
               )
             })}
           </tr>
           </thead>
-          <tbody className="bg-white divide-y divide-gray-200">
+          <tbody>
             {rows.map((row, index) => {
               return (
                 <tr key={index}>

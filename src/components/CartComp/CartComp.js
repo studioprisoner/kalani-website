@@ -7,9 +7,9 @@ const CartComp = ({ data, columns }) => {
     return (
         <div className="pl-3">
             <div className="grid grid-cols-4 sm:text-xs">
-                {columns.map(({ columnId, Header }) => {
+                {columns.map(({ Header }) => {
                     return (
-                        <div className="mt-8 text-lg font-medium" key={columnId}> { Header }</div>
+                        <div className="mt-8 text-lg font-medium">{ Header }</div>
                     )
                 })}
             </div>
