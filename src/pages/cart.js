@@ -92,7 +92,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Helmet>
 
-      <div className="flex flex-col">
+      <div className="max-w-7xl mx-auto flex flex-col">
       <h1 className="my-3 text-3xl tracking-tight font-extrabold text-rose-bud-500 sm:text-4xl">My Shopping Cart</h1>
         <div className="sm:-mx-6 lg:-mx-8">
           <div className="py-2 sm:px-1 lg:px-8">
