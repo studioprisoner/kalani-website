@@ -43,11 +43,11 @@ export default function Home() {
               <span className="block text-rose-bud-500 xl:inline">Arranged for you</span>
             </h1>
             <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
-          Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
+          At Kalani.Co my hope is that my dried flower arrangements will bring much love and joy into the every space they enter.
             </p>
             <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md shadow">
-                <Link href="#products">
+                <Link href="/products">
                 <a className="w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-rose-bud-500 bg-almond-300 hover:bg-almond-400 md:py-4 md:text-lg md:px-10">
                 See our Products
                 </a>

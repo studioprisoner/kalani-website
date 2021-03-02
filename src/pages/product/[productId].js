@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 import { formatCurrency } from 'lib/currency';
 import useCart from 'hooks/use-cart';
 
-import Layout from 'components/Layout';
+import Footer from 'components/Footer'
 
 import products from 'data/products.json';
 
@@ -35,12 +35,11 @@ export default function Product({ product }) {
                         <img className="rounded-lg bg-gray-100 mb-4" src={product.image} alt={product.name} />
                     </div>
                     <div className="md:flex-1 px-4">
-                        <h2 className="mb-2 leading-light tracking-tight font-bold text-rose-bud-500 text-2xl md:text-3xl">{product.title}</h2>
+                        <h2 className="mb-2 leading-light tracking-tight font-bold text-rose-bud-500 text-2xl md:text-3xl">{product.name}</h2>
                         <div className="flex items-center space-x-4 my-4">
                             <div>
-                                <div className="rounded-lg bg-gray-100 flex py-2 px-3">
-                                    <span className="text-mongoose-400 mr-1 mt-1">$</span>
-                                    <span className="font-bold text-mongoose-600 text-3xl">{ formatCurrency(product.price) }</span>
+                                <div className="rounded-lg bg-almond-200 flex py-2 px-3">
+                                    <span className="font-bold text-mongoose-700 text-3xl">{ formatCurrency(product.price) }</span>
                                 </div>
                             </div>
                         </div>
@@ -57,6 +56,7 @@ export default function Product({ product }) {
                 <div>
                 </div>
             </main>
+            <Footer />
     </div>
   )
 }
