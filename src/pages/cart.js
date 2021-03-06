@@ -32,8 +32,10 @@ export default function Home() {
     const product = products.find(({ id: pid }) => pid === id);
     const { name } = product;
     return {
+      id,
       name,
       quantity,
+      price: formatCurrency(pricePerUnit),
       update: <CartQuantity id={id} quantity={quantity} onUpdate={handleOnUpdateItem} />,
       total: formatCurrency(quantity * pricePerUnit)
     }
