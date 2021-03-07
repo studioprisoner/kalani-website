@@ -18,7 +18,7 @@ const About = () => {
                     <div className="lg:col-start-2 lg:pl-8">
                     <div className="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0">
                         <h2 className="leading-6 text-rose-bud-500 font-semibold tracking-wide uppercase">Who are we</h2>
-                        <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-mongoose-500 sm:text-4xl">About Kalani.Co</h3>
+                        <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-mongoose-500 sm:text-4xl font-maldives">About Kalani.Co</h3>
                         <p className="mt-8 text-lg text-gray-500">My name is Jodyn and I am the owner and creative director of Kalani.Co</p>
                         <div className="mt-5 prose prose-indigo text-gray-500">
                         <p>I decided to start this business after the unpredictable pandemic of 2020 because I was creating and gifting flower after flower arrangement for friends, shared with the thought that : "I hope these cheer you up since you can't leave your home!</p>

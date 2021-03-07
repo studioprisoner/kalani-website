@@ -95,7 +95,7 @@ export default function Home() {
       </Helmet>
 
       <div className="max-w-7xl mx-auto flex flex-col">
-      <h1 className="my-3 text-3xl tracking-tight font-extrabold text-rose-bud-500 sm:text-4xl">My Shopping Cart</h1>
+      <h1 className="my-3 text-5xl text-rose-bud-500 sm:text-6xl font-maldives">My Shopping Cart</h1>
       <div className="rounded-md bg-yellow-50 p-4">
   <div className="flex">
     <div className="flex-shrink-0">

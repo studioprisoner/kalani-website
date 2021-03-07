@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react';
+import Link from 'next/link';
 
 function Subscribe() {
   // 1. Create a reference to the input so we can fetch/clear it's value.
@@ -39,7 +40,7 @@ function Subscribe() {
         <div className="bg-mongoose-400">
             <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
                 <div className="lg:w-auto lg:flex-1">
-                    <h2 className="text-3xl font-extrabold tracking-tight text-almond-300 sm:text-4xl" id="newsletter-headline">
+                    <h2 className="text-3xl text-almond-900 sm:text-6xl font-maldives" id="newsletter-headline">
                         Sign up for our Newsletter
                     </h2>
                     <p className="mt-3 max-w-xl text-lg leading-6 text-mongoose-900">
@@ -66,7 +67,7 @@ function Subscribe() {
                 <p className="mt-3 text-sm text-rose-bud-300">{ message }</p>
                 </div>
                 <p className="mt-3 text-sm text-mongoose-900">
-                We care about the protection of your data. Read our <a href="#" class="text-mongoose-700 font-medium underline hover:text-mongoose-900">Privacy Policy.</a>
+                We care about the protection of your data. Read our <Link href="/termsconditions"><a className="text-mongoose-700 font-medium underline hover:text-mongoose-900">Terms &amp; Conditions.</a></Link>
                 </p>
                 </div>
             </div>

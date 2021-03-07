@@ -6,6 +6,9 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      'maldives': ['maldives', 'sans-serif']
+    },
     extend: {
       colors: {
         'mongoose': {

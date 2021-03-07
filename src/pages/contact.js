@@ -33,7 +33,7 @@ function Contact() {
                     <div className="relative max-w-7xl mx-auto lg:grid lg:grid-cols-5">
                         <div className="bg-almond-200 py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
                             <div className="max-w-lg mx-auto">
-                                <h2 class="text-2xl font-extrabold tracking-tight text-mongoose-500 sm:text-3xl">
+                                <h2 class="text-2xl text-mongoose-500 sm:text-3xl font-maldives">
                                     Get In Touch
                                 </h2>
                                 <p class="mt-3 text-lg leading-6 text-gray-500">
