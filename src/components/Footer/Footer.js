@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 const Footer = () => {
     return (
         <footer className="bg-white">
@@ -19,7 +21,13 @@ const Footer = () => {
             </div>
             <div class="mt-8 md:mt-0 md:order-1">
       <p class="text-center text-base text-gray-400">
-        &copy; 2021 Jordyn Goodwin trading as Kalani Collective. ABN 92 933 423 456. All rights reserved.
+        &copy; 2021 Jordyn Goodwin trading as Kalani Collective. ABN 23 933 996 430. All rights reserved. 
+        <Link href="/termsconditions">
+          <a className="pl-2 underline font-medium text-rose-bud-500 hover:text-apricot-peach-500">Terms &amp; Conditions</a>
+        </Link>  
+        <Link href="/returns">
+          <a className="pl-2 underline font-medium text-rose-bud-500 hover:text-apricot-peach-500">Returns &amp; Refunds</a>
+        </Link>
       </p>
     </div>
         </div>
