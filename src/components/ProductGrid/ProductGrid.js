@@ -27,7 +27,7 @@ const ProductGrid = ({ products = [], onAddToCart }) => {
                                         <p className="mt-3 text-mongoose-700 font-bold">
                                             { formatCurrency(product.price) }
                                         </p>
-                                        <p className="my-3 text-base text-gray-500 md:h-12">
+                                        <p className="my-3 text-base text-mongoose-500 md:h-12">
                                             {product.description}
                                         </p>
                                         <p>

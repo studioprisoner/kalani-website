@@ -35,7 +35,7 @@ export default function Product({ product }) {
                         <img className="rounded-lg bg-gray-100 mb-4" src={product.image} alt={product.name} />
                     </div>
                     <div className="md:flex-1 px-4">
-                        <h2 className="mb-2 leading-light tracking-tight font-bold text-rose-bud-500 text-2xl md:text-3xl">{product.name}</h2>
+                        <h2 className="mb-2 leading-light tracking-tight font-bold text-rose-bud-500 text-4xl lg:text-6xl md:text-4xl sm:text-2xl font-maldives">{product.name}</h2>
                         <div className="flex items-center space-x-4 my-4">
                             <div>
                                 <div className="rounded-lg bg-almond-200 flex py-2 px-3">
@@ -43,7 +43,7 @@ export default function Product({ product }) {
                                 </div>
                             </div>
                         </div>
-                        <p className="text-gray-500">{product.description}</p>
+                        <p className="text-mongoose-500">{product.description}</p>
                         <div className="flex py-4 space-x-4">
                             <div className="relative">
                                 <button className="px-6 py-2 block w-full bg-almond-300 border border-almond-300 rounded-md py-2 text-sm font-semibold text-rose-bud-500 text-center hover:bg-almond-500 hover:border-almond-500" onClick={handleAddToCart}>
