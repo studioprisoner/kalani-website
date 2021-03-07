@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
+import Link from 'next/link'
 
 import useCart from 'hooks/use-cart';
 
