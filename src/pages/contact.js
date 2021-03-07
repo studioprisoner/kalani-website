@@ -92,7 +92,7 @@ function Contact() {
                                     <textarea id="message" name="message" rows="4" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-rose-bud-500 focus:border-rose-bud-500 border-gray-300 rounded-md" placeholder="Message"></textarea>
                                 </div>
                                 <div>
-                                    <button type="submit" class="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-almond-500 bg-mongoose-500 hover:bg-mongoose-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-rose-bud-500">
+                                    <button type="submit" class="w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-rose-bud-500 bg-almond-300 hover:bg-almond-400 md:py-4 md:text-lg md:px-10">
                                     Submit
                                     </button>
                                 </div>
