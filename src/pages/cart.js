@@ -87,39 +87,54 @@ export default function Home() {
   }
 
   return (
-    <div className="relative bg-white m-3">
-
+    <div>
       <Helmet>
         <title>Cart</title>
         <link rel="icon" href="/favicon.ico" />
       </Helmet>
-
-      <div className="max-w-7xl mx-auto flex flex-col">
-      <h1 className="my-3 text-5xl text-rose-bud-500 sm:text-6xl font-maldives">My Shopping Cart</h1>
-      <div className="rounded-md bg-yellow-50 p-4">
-  <div className="flex">
-    <div className="flex-shrink-0">
-      <svg className="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-        <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
-      </svg>
-    </div>
-    <div className="ml-3">
-      <h3 className="text-sm font-medium text-yellow-800">
-        Delivery Zones
-      </h3>
-      <div className="mt-2 text-sm text-yellow-700">
-        <p>
-          Currently, we are only delivering to Melbourne and Geelong metro areas. Keep an eye out on our social media for news on updated delivery zones.
-        </p>
+      <div className="bg-indigo-600">
+        <div className="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between flex-wrap">
+            <div className="w-0 flex-1 flex items-center">
+              <span className="flex p-2 rounded-lg bg-indigo-800">
+              <svg className="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              </span>
+              <p className="ml-3 font-medium text-white truncate">
+                <span className="md:hidden">
+                  Delivery Zones
+                </span>
+                <span className="hidden md:inline">
+                  Delivery Zones: We are only delivering to Melbourne &amp; Geelong Metro Areas. All prices are inclusive of delivery.
+                </span>
+              </p>
+            </div>
+            <div className="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto">
+              <a href="#" className="flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-indigo-600 bg-white hover:bg-indigo-50">
+                Learn more
+              </a>
+            </div>
+            <div class="order-2 flex-shrink-0 sm:order-3 sm:ml-3">
+        <button type="button" class="-mr-1 flex p-2 rounded-md hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-white sm:-mr-2">
+          <span class="sr-only">Dismiss</span>
+          <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
       </div>
-    </div>
-  </div>
-</div>
+          </div>
+        </div>
+      </div>
+
+      <div className="max-w-7xl flex flex-col mx-6">
+      <h1 className="my-3 text-5xl text-rose-bud-500 sm:text-6xl font-maldives">My Shopping Cart</h1>
         <div className="sm:-mx-6 lg:-mx-8">
           <div className="py-2 sm:px-1 lg:px-8">
             <div className="shadow border-b border-gray-200 sm:rounded-lg">
               <Table data={data} columns={columns} />
             </div>
+            
             <div className="bg-white overflow-hidden shadow rounded-lg mt-3">
             {data.length > 0 && (
                   <div>

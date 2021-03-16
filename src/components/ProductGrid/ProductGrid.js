@@ -15,7 +15,7 @@ const ProductGrid = ({ products = [], onAddToCart }) => {
                                     </a>
                                     </Link>
                                 </div>
-                                <div className="flex-1 bg-white p-6 flex flex-col justify-between md:h-64 md:min-h-full">
+                                <div className="flex-1 bg-white p-6 flex flex-col justify-between md:min-h-full">
                                     <div className="">
                                         <p className="text-sm font-medium text-rose-bud-500 uppercase">
                                             <Link href={`/product/${product.id}`}>
@@ -27,11 +27,11 @@ const ProductGrid = ({ products = [], onAddToCart }) => {
                                         <p className="mt-3 text-mongoose-700 font-bold">
                                             { formatCurrency(product.price) }
                                         </p>
-                                        <p className="my-3 text-base text-mongoose-500 md:h-12">
+                                        <p className="my-3 text-base text-mongoose-500">
                                             {product.description}
                                         </p>
                                         <p>
-                                        <button className="mt-8 block w-full bg-almond-300 border border-almond-300 rounded-md py-2 text-sm font-semibold text-rose-bud-500 text-center hover:bg-almond-500 hover:border-almond-500" onClick={(e) => onAddToCart(e, product)}>
+                                        <button className="mt-8 block w-full bottom-0 bg-almond-300 border border-almond-300 rounded-md py-2 text-sm font-semibold text-rose-bud-500 text-center hover:bg-almond-500 hover:border-almond-500" onClick={(e) => onAddToCart(e, product)}>
                                             Add to Cart
                                         </button>
                                         </p>

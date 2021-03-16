@@ -11,7 +11,7 @@ const About = () => {
             <div className="relative bg-white mt-1">
                 <div className="lg:absolute lg:inset-0">
                     <div className="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
-                    <img className="w-full object-cover lg:absolute lg:h-full" src="../images/jordyn.jpg" alt="" />
+                    <img className="w-full object-cover lg:absolute lg:h-full" src="../images/jordyn.webp" alt="" />
                     </div>
                 </div>
                 <div className="relative pt-12 pb-16 px-4 sm:pt-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2">

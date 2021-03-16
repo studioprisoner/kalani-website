@@ -57,7 +57,7 @@ export default function Home() {
           </div>
         </div>
         <div className="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
-          <img className="absolute inset-0 w-full h-full object-cover" src="https://images.unsplash.com/photo-1590744363062-282991c2959a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=754&q=80" alt="flowers" />
+          <img className="absolute inset-0 w-full h-full object-cover" src="images/front-page.webp" alt="Preserved Flowers" />
         </div>
       </main>
       <Subscribe />

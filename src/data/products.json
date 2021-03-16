@@ -2,33 +2,81 @@
     {
         "id": 1,
         "sku": "price_0IBbbKKYxsnvsuZdE3DowZTh",
-        "name": "Flower Arrangement 1",
-        "description": "Treat that special someone with this arrangement",
-        "image": "/images/flowers/flowers_1.jpg",
-        "price": 30.00
+        "name": "Kalani",
+        "description": "White ceramic vase with a feature king protea, fan palm, seaholly, scabosia pods, natural bunny tails, lunaria honesty and a cream african sunflower.",
+        "image": "/images/products/kalani/webp.jpg",
+        "price": 230.00
     },
     {
         "id": 2,
         "sku": "price_0IBbcdKYxsnvsuZdhKFhIMa2",
-        "name": "Flower Arrangement 2",
-        "description": "This center piece will brighten up any house.",
-        "image": "/images/flowers/flowers_2.jpg",
-        "price": 40.00
+        "name": "Sammy",
+        "description": "Blush nude ceramic vase with a feature victoriae banksia, cream and pink dried teasle, amaranthus, spear palm, ming fern, tail reed and mountain daisies.",
+        "image": "/images/products/sammy/1.webp",
+        "price": 190.00
     },
     {
         "id": 3,
         "sku": "price_0IBbd1KYxsnvsuZdT7HIO3bi",
-        "name": "Flower Arrangement 3",
-        "description": "For a special occasion.",
-        "image": "/images/flowers/flowers_3.jpg",
-        "price": 25.00
+        "name": "Olivia",
+        "description": "Natural pampas grass with a cyad leaf, lotus pod, ming fern and preserved ruscus. (No vase)",
+        "image": "/images/products/olivia/1.webp",
+        "price": 160.00
     },
     {
         "id": 4,
         "sku": "price_0IBbegKYxsnvsuZdCuXuKUy3",
-        "name": "Flower Arrangement 4",
-        "description": "A coastal arrangement to bring the beach to you.",
-        "image": "/images/flowers/flowers_4.jpg",
-        "price": 60.00
+        "name": "Tayla",
+        "description": "Dark blue ming fern with two large hydrangeas, african sunflowers, preserved immortelle, and preserved ruscus.",
+        "image": "/images/products/tayla/1.webp",
+        "price": 260.00
+    },
+    {
+        "id": 5,
+        "sku": "price_0IBbegKYxsnvsuZdCuXuKUy3",
+        "name": "Eden",
+        "description": "Hand crafted ceramic jug with a brown hydrangea, maize leaves, black strillingia, indiangrass, african sunflower and dried teasle.",
+        "image": "/images/products/eden/1.webp",
+        "price": 180.00
+    },
+    {
+        "id": 6,
+        "sku": "price_0IBbegKYxsnvsuZdCuXuKUy3",
+        "name": "Ella",
+        "description": "White ceramic vase with preserved tail reeds, lunaria honesty, natural bunny tails, seaholly and japanese amaranthus.",
+        "image": "/images/products/ella/1.webp",
+        "price": 100.00
+    },
+    {
+        "id": 7,
+        "sku": "price_0IBbegKYxsnvsuZdCuXuKUy3",
+        "name": "Irichell",
+        "description": "Brown hydrangea with black strillingia, indiangrass, maize leaves and coral palms.(No vase)",
+        "image": "/images/products/irichell/1.webp",
+        "price": 130.00
+    },
+    {
+        "id": 8,
+        "sku": "price_0IBbegKYxsnvsuZdCuXuKUy3",
+        "name": "Maria",
+        "description": "Hand crafted ceramic vase with dried gypsophila and dried teasle.",
+        "image": "/images/products/maria/1.webp",
+        "price": 75.00
+    },
+    {
+        "id": 9,
+        "sku": "price_0IBbegKYxsnvsuZdCuXuKUy3",
+        "name": "Jordyn",
+        "description": "Mini spear palm, japanese .... and white bunny tails. (No vase)",
+        "image": "/images/products/jordyn/1.webp",
+        "price": 50.00
+    },
+    {
+        "id": 10,
+        "sku": "price_0IBbegKYxsnvsuZdCuXuKUy3",
+        "name": "Honey Bee",
+        "description": "Ming fern, pink rice flower, wheat grass, myrtle leaves, pink bunny tails and a king protea. (No vase)",
+        "image": "/images/products/honeybee/1.webp",
+        "price": 120.00
     }
 ]
