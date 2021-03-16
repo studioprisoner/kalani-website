@@ -4,7 +4,7 @@ import Link from 'next/link';
 import useSite from 'hooks/use-site';
 import useCart from 'hooks/use-cart';
 
-import Subscribe from 'components/Subscribe';
+import SubscribeNew from 'components/SubscribeNew';
 import ProductGrid from 'components/ProductGrid'
 import Footer from 'components/Footer';
 
@@ -60,7 +60,7 @@ export default function Home() {
           <img className="absolute inset-0 w-full h-full object-cover" src="images/front-page.webp" alt="Preserved Flowers" />
         </div>
       </main>
-      <Subscribe />
+      <SubscribeNew />
       <ProductGrid products={products} onAddToCart={handleAddToCart} />
       <Footer />
     </div>
