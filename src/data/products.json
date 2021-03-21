@@ -13,7 +13,7 @@
         "name": "Sammy",
         "description": "Blush nude ceramic vase with a feature victoriae banksia, cream and pink dried teasle, amaranthus, spear palm, ming fern, tail reed and mountain daisies.",
         "image": "/images/products/sammy/1.webp",
-        "price": 190.00
+        "price": 180.00
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "name": "Olivia",
         "description": "Natural pampas grass with a cyad leaf, lotus pod, ming fern and preserved ruscus. (No vase)",
         "image": "/images/products/olivia/1.webp",
-        "price": 160.00
+        "price": 150.00
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "name": "Tayla",
         "description": "Dark blue ming fern with two large hydrangeas, african sunflowers, preserved immortelle, and preserved ruscus.",
         "image": "/images/products/tayla/1.webp",
-        "price": 260.00
+        "price": 250.00
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "name": "Eden",
         "description": "Hand crafted ceramic jug with a brown hydrangea, maize leaves, black strillingia, indiangrass, african sunflower and dried teasle.",
         "image": "/images/products/eden/1.webp",
-        "price": 180.00
+        "price": 170.00
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "name": "Ella",
         "description": "White ceramic vase with preserved tail reeds, lunaria honesty, natural bunny tails, seaholly and japanese amaranthus.",
         "image": "/images/products/ella/1.webp",
-        "price": 100.00
+        "price": 90.00
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@
         "name": "Irichell",
         "description": "Brown hydrangea with black strillingia, indiangrass, maize leaves and coral palms.(No vase)",
         "image": "/images/products/irichell/1.webp",
-        "price": 130.00
+        "price": 120.00
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@
         "name": "Maria",
         "description": "Hand crafted ceramic vase with dried gypsophila and dried teasle.",
         "image": "/images/products/maria/1.webp",
-        "price": 75.00
+        "price": 65.00
     },
     {
         "id": 9,
@@ -69,7 +69,7 @@
         "name": "Jordyn",
         "description": "Mini spear palm, japanese .... and white bunny tails. (No vase)",
         "image": "/images/products/jordyn/1.webp",
-        "price": 50.00
+        "price": 40.00
     },
     {
         "id": 10,
@@ -77,6 +77,6 @@
         "name": "Honey Bee",
         "description": "Ming fern, pink rice flower, wheat grass, myrtle leaves, pink bunny tails and a king protea. (No vase)",
         "image": "/images/products/honeybee/1.webp",
-        "price": 120.00
+        "price": 110.00
     }
 ]
