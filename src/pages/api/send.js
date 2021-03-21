@@ -7,8 +7,8 @@ export default async (req, res) => {
     const { email, message, full_name, phone } = req.body
     
     const content = {
-        to: 'josh@studioprisoner.com',
-        from: 'josh@studioprisoner.com',
+        to: 'jordyn@kalni-co.com.au',
+        from: 'josh@kalani-co.com.au',
         subject: `Kalani Contact form - from ${full_name}`,
         html: `<p>Name: ${full_name}</p><p>Email: ${email}</p><p>Phone number: ${phone}</p><p>${message}</p>`
     }
