@@ -23,11 +23,11 @@ const About = () => {
                         <div className="mt-5 prose prose-indigo text-gray-500">
                         <p>I decided to start this business after the unpredictable pandemic of 2020 because I was creating and gifting flower after flower arrangement for friends, shared with the thought that : "I hope these cheer you up since you can't leave your home!</p>
                         <p>My creativity was challenged, and I was inspired to bring my passion and adoration for flowers to more than just friends and family.</p>
-                        <p>At Kalani.Co my hope is that my dried flower arrangments will bring much love and joy into every space they enter, whether that be a home, an office, or a special event. What better way to tell someone you are thinking of them than with a stunning bunch of real flowers that last. They will be reminded of you for much lonver than a week!</p>
-                        <p>Check out latest products <Link href="/products"><a className="font-semibold underline text-rose-bud-500 hover:text-apricot-peach-500">here</a></Link></p>
+                        <p>At Kalani.Co my hope is that my dried flower arrangments will bring much love and joy into every space they enter, whether that be a home, an office, or a special event. What better way to tell someone you are thinking of them than with a stunning bunch of real flowers that last. They will be reminded of you for much longer than a week!</p>
+                        <p>Check our latest products <Link href="/products"><a className="font-semibold underline text-rose-bud-500 hover:text-apricot-peach-500">here</a></Link></p>
                         <h3 className="text-apricot-peach-500">What are dried flowers and how do I care for them?</h3>
                         <p>Dried flowers are real flowers that undergo a careful preservation process that prolong their natural beauty so that you can enjoy them for a lifetime. Dried flowers are pollen free, non-toxic, non-corrosive and non-chemical reactive making your blooms safe and allergy free.</p>
-                        <p>To care for Kalani.Co flowers, ensure you place them in a spot that avoides direct sunlight so that the colour does not fade; keep them in a cool and dry space that is free from humidity and finally, remember you do not need to water your flowers!</p>
+                        <p>To care for Kalani.Co flowers, ensure you place them in a spot that avoids direct sunlight so that the colour does not fade; keep them in a cool and dry space that is free from humidity and finally, remember you do not need to water your flowers!</p>
                         </div>
                     </div>
                     </div>

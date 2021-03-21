@@ -43,7 +43,7 @@ export default function Home() {
               <span className="block xl:inline font-maldives">Arranged for you</span>
             </h1>
             <p className="mt-3 max-w-md mx-auto text-mongoose-500 text-base md:mt-5 md:max-w-3xl">
-          At Kalani.Co my hope is that my dried flower arrangements will bring much love and joy into the every space they enter.
+          At Kalani.Co my hope is that my dried flower arrangements will bring much love and joy into every space they enter.
             </p>
             <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md shadow">

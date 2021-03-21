@@ -37,27 +37,9 @@ function Contact() {
                                     Get In Touch
                                 </h2>
                                 <p class="mt-3 text-lg leading-6 text-gray-500">
-                                    Have any questions about any products? Have a collaboration idea? Use the form, send me an email or send me a text and we'll chat!
+                                    Have any questions about any products? Have a collaboration idea? Use the form or send me an email and we'll chat!
                                 </p>
                                 <dl className="mt-8 text-base text-gray-500">
-                                    <div className="hidden">
-                                        <dt class="sr-only">Postal address</dt>
-                                        <dd>
-                                        <p>742 Evergreen Terrace</p>
-                                        <p>Springfield, OR 12345</p>
-                                        </dd>
-                                    </div>
-                                    <div className="mt-6">
-                                        <dt className="sr-only">Phone Number</dt>
-                                        <dd className="flex">
-                                            <svg class="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                                                <path strokeLinecap="round" strokedlinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                                            </svg>
-                                            <span class="ml-3">
-                                                0435 323 543
-                                            </span>
-                                        </dd>
-                                    </div>
                                     <div className="mt-3">
                                         <dt class="sr-only">Email</dt>
                                         <dd className="flex">
