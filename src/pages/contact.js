@@ -126,7 +126,7 @@ export default function Contact() {
                             </form>
 
                             {status.info.error && (
-                                <div className="rounded-md bg-yellow-50 p-4">
+                                <div className="rounded-md bg-yellow-50 p-4 mt-1">
                                     <div className="flex">
                                         <div className="flex-shrink-0">
                                         <svg className="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -142,7 +142,7 @@ export default function Contact() {
                                     </div>
                             )}
                             {!status.info.error && status.info.msg && (
-                                <div className="rounded-md bg-green-50 p-4">
+                                <div className="rounded-md bg-green-50 p-4 mt-1">
                                     <div className="flex">
                                         <div className="flex-shrink-0">
                                         <svg className="h-5 w-5 text-green-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
