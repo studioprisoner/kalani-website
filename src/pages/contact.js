@@ -27,7 +27,6 @@ function Contact() {
             },
             method: 'POST'
         })
-        const result = await res.json()
     }
         return (
             <div>
