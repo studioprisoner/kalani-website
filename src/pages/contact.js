@@ -50,7 +50,7 @@ export default () => {
   const handleOnSubmit = async e => {
     e.preventDefault()
     setStatus(prevStatus => ({ ...prevStatus, submitting: true }))
-    const res = await fetch('/api/send_2', {
+    const res = await fetch('/api/send', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
