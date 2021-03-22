@@ -24,7 +24,9 @@ export default function Contact() {
         info: { error: false, msg: msg }
       })
       setInputs({
+        full_name: '',
         email: '',
+        phone: '',
         message: ''
       })
     } else {
