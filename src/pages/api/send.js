@@ -1,14 +1,14 @@
 import sendgrid from '@sendgrid/mail'
 
-sendgrid.setApiKey(process.env.SENDGRID_API_KEY_2);
+sendgrid.setApiKey(process.env.SENDGRID_API_KEY_JOSH);
 
 export default async (req, res) => {
 
     const { email, message, full_name, phone } = req.body
     
     const content = {
-        to: 'jordyn@kalani-co.com.au',
-        from: 'josh@kalani-co.com.au',
+        to: 'josh@studioprisoner.com',
+        from: 'josh@studioprisoner.com',
         subject: `Kalani Contact form - from ${full_name}`,
         html: `<p>Name: ${full_name}</p><p>Email: ${email}</p><p>Phone number: ${phone}</p><p>${message}</p>`
     }

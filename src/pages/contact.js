@@ -1,7 +1,17 @@
 import Head from 'next/head';
+import { useState, useEffect } from 'react';
 import Footer from 'components/Footer'; 
 
 function Contact() {
+
+    const [success, setSuccess] = useState(false);
+
+    useEffect(() => {
+        if ( window.location.search.includes('success=true') ) {
+          setSuccess(true);
+        }
+      }, []);
+      
     
         const contactForm = async event => {
             event.preventDefault()
@@ -27,8 +37,8 @@ function Contact() {
                 <Head>
                         <title>Kalani Flowers - Get in Touch</title>
                     </Head>
-                    <div class="absolute inset-0">
-                        <div class="absolute inset-y-0 left-0 w-1/2 bg-gray-50"></div>
+                    <div className="absolute inset-0">
+                        <div className="absolute inset-y-0 left-0 w-1/2 bg-gray-50"></div>
                     </div>
                     <div className="relative max-w-7xl mx-auto lg:grid lg:grid-cols-5">
                         <div className="bg-almond-200 py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
@@ -56,7 +66,7 @@ function Contact() {
                         </div>
                         <div className="bg-white py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
                             <div className="max-w-lg mx-auto lg:max-w-none">
-                            <form onSubmit={contactForm} class="grid grid-cols-1 gap-y-6">
+                            <form onSubmit={contactForm} action="/?success=true" class="grid grid-cols-1 gap-y-6">
                                 <div>
                                     <label htmlFor="full_name" class="sr-only">Full name</label>
                                     <input type="text" name="full_name" id="full_name" autoComplete="name" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-rose-bud-500 focus:border-rose-bud-500 border-gray-300 rounded-md" placeholder="Full name" />
@@ -79,6 +89,13 @@ function Contact() {
                                     </button>
                                 </div>
                                 </form>
+                                <div>
+                                {success && (
+                                    <p style={{ color: 'green'}}>
+                                        Successfully submitted form!
+                                    </p>
+                                )}
+                                </div>
                             </div>
                         </div>
                     </div>
