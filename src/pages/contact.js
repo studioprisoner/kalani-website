@@ -15,7 +15,7 @@ function Contact() {
     const contactForm = async event => {
         event.preventDefault()
 
-        const res = await fetch('api/send', {
+        const res = await fetch('api/send_2', {
             body: JSON.stringify({
                 full_name: event.target.full_name.value,
                 email: event.target.email.value,
