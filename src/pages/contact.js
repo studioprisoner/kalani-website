@@ -1,17 +1,10 @@
 import Head from 'next/head';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Footer from 'components/Footer'; 
+import { FaCapsules } from 'react-icons/fa';
 
 function Contact() {
 
-    const [success, setSuccess] = useState(false);
-
-    useEffect(() => {
-        if ( window.location.search.includes('success=true') ) {
-          setSuccess(true);
-        }
-      }, []);
-      
     const contactForm = async event => {
         event.preventDefault()
 
@@ -86,13 +79,6 @@ function Contact() {
                                 </button>
                             </div>
                             </form>
-                            <div>
-                            {success && (
-                                <p style={{ color: 'green'}}>
-                                    Successfully submitted form!
-                                </p>
-                            )}
-                            </div>
                         </div>
                     </div>
                 </div>
