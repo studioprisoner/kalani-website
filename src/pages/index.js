@@ -35,8 +35,8 @@ export default function Home() {
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta property="og:title" content={siteName} key="title" />
       <meta property="og:url" content="https://www.kalani-co.com.au" key="url" />
-      <meta property="og:type" content="Online Store" key="type"/>
-      <meta property="og:image" content="images/front-page.webp" key="image" />
+      <meta property="og:type" content="Store" key="type"/>
+      <meta property="og:image" content="https://www.kalani-co.com.au/images/front-page.webp" key="image" />
       <meta property="og:description" content="Heavenly dried flower arrangements made from home with love." type="description" />
       </Head>
       
