@@ -1,4 +1,4 @@
-import Helmet from 'react-helmet';
+import Head from 'next/head';
 import Link from 'next/link';
 
 import useSite from 'hooks/use-site';
@@ -30,10 +30,15 @@ export default function Home() {
 
   return (
     <div>
-      <Helmet>
-        <title>{ siteName }</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Helmet>
+      <Head>
+      <title>{ siteName }</title>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <meta property="og:title" content={siteName} key="title" />
+      <meta property="og:url" content="https://www.kalani-co.com.au" key="url" />
+      <meta property="og:type" content="Online Store" key="type"/>
+      <meta property="og:image" content="images/front-page.webp" key="image" />
+      <meta property="og:description" content="Heavenly dried flower arrangements made from home with love." type="description" />
+      </Head>
       
       <main className="lg:relative">
         <div className="mx-auto max-w-7xl w-full pt-16 pb-4 text-center lg:py-48 lg:text-left">
