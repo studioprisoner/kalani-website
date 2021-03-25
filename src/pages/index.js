@@ -1,7 +1,5 @@
-import Head from 'next/head';
 import Link from 'next/link';
 
-import useSite from 'hooks/use-site';
 import useCart from 'hooks/use-cart';
 
 import SubscribeNew from 'components/SubscribeNew';
@@ -14,8 +12,6 @@ export default function Home() {
 
   const { addItem, removeItem } = useCart();
 
-  const { metadata } = useSite();
-  const { siteName } = metadata;
 
   /**
    * handleAddToCart
@@ -30,16 +26,6 @@ export default function Home() {
 
   return (
     <div>
-      <Head>
-      <title>{ siteName }</title>
-      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      <meta property="og:title" content={siteName} key="title" />
-      <meta property="og:url" content="https://www.kalani-co.com.au" key="url" />
-      <meta property="og:type" content="Store" key="type"/>
-      <meta property="og:image" content="https://www.kalani-co.com.au/images/front-page.webp" key="image" />
-      <meta property="og:description" content="Heavenly dried flower arrangements made from home with love." type="description" />
-      </Head>
-      
       <main className="lg:relative">
         <div className="mx-auto max-w-7xl w-full pt-16 pb-4 text-center lg:py-48 lg:text-left">
           <div className="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
