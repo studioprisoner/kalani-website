@@ -21,7 +21,7 @@ function App({ Component, pageProps }) {
     <div>
       <Head>
         <title>Kalani Co - Heavenly Flowers Arranged for you</title>
-        <script async defer data-website-id="963aa68d-acc9-432b-9dda-16324088a789" src="https://umami-kalani-vercel.app/umami.js"></script>
+        <script async defer data-website-id="963aa68d-acc9-432b-9dda-16324088a789" src="js/umami.js"></script>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta property="og:title" content="Kalani Co Flowers" key="title" />
         <meta property="og:url" content="https://www.kalani-co.com.au" key="url" />
