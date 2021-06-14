@@ -56,14 +56,6 @@
         "price": 120.00
     },
     {
-        "id": 8,
-        "sku": "price_1IWVvkEfO32OV4Ew1bpsItda",
-        "name": "Maria",
-        "description": "Hand crafted ceramic vase with dried gypsophila and dried teasle.",
-        "image": "/images/products/maria/1.webp",
-        "price": 65.00
-    },
-    {
         "id": 9,
         "sku": "price_1IWVwGEfO32OV4EwvYUGehdb",
         "name": "Jordyn",

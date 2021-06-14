@@ -11,7 +11,7 @@ const ProductGrid = ({ products = [], onAddToCart }) => {
                                 <div className="flex-shrink-0">
                                     <Link href={`/product/${product.id}`}>
                                     <a>
-                                    <img className="h-48 w-full object-cover" src={product.image} alt={product.title} />
+                                    <img className="h-full w-full object-cover" src={product.image} alt={product.title} />
                                     </a>
                                     </Link>
                                 </div>
