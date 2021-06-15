@@ -3,7 +3,8 @@ import Link from 'next/link';
 import useCart from 'hooks/use-cart';
 
 import SubscribeNew from 'components/SubscribeNew';
-import ProductGrid from 'components/ProductGrid'
+import ProductGrid from 'components/ProductGrid';
+import ProductGridNew from 'components/ProductGrid';
 import Footer from 'components/Footer';
 
 import products from 'data/products.json';
@@ -52,7 +53,7 @@ export default function Home() {
         </div>
       </main>
       <SubscribeNew />
-      <ProductGrid products={products} onAddToCart={handleAddToCart} />
+      <ProductGridNew products={products} onAddToCart={handleAddToCart} />
       <Footer />
     </div>
   )
