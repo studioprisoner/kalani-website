@@ -3,7 +3,8 @@ import Link from 'next/link';
 import useCart from 'hooks/use-cart';
 
 import SubscribeNew from 'components/SubscribeNew';
-import ProductGrid from 'components/ProductGrid'
+import ProductGrid from 'components/ProductGrid';
+import ProductGridNew from 'components/ProductGrid';
 import Footer from 'components/Footer';
 
 import products from 'data/products.json';
@@ -30,7 +31,7 @@ export default function Home() {
         <div className="mx-auto max-w-7xl w-full pt-16 pb-4 text-center lg:py-48 lg:text-left">
           <div className="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
             <h1 className="text-5xl text-mongoose-500 md:text-6xl lg:text-6xl xl:text-6xl">
-              <span className="block text-rose-bud-500 xl:inline font-maldives">Heavenly Flowers</span>
+              <span className="block text-rose-bud-500 xl:inline font-maldives">Test Flowers</span>
               <span className="block xl:inline font-maldives">Arranged for you</span>
             </h1>
             <p className="mt-3 max-w-md mx-auto text-mongoose-500 text-base md:mt-5 md:max-w-3xl">
@@ -52,7 +53,7 @@ export default function Home() {
         </div>
       </main>
       <SubscribeNew />
-      <ProductGrid products={products} onAddToCart={handleAddToCart} />
+      <ProductGridNew products={products} onAddToCart={handleAddToCart} />
       <Footer />
     </div>
   )
