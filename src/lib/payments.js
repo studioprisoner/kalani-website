@@ -17,9 +17,6 @@ export async function initCheckout({ lineItems } = {}) {
 
   const { error } = await stripe.redirectToCheckout({
     mode: 'payment',
-    discounts: [{
-      coupon: '{{COUPON_ID}}',
-    }],
     lineItems,
     shippingAddressCollection: {
       allowedCountries: ["AU"],
