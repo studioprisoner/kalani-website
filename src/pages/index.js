@@ -53,7 +53,7 @@ export default function Home() {
         </div>
       </main>
       <SubscribeNew />
-      <ProductGridNew products={products} onAddToCart={handleAddToCart} />
+      <ProductGrid products={products} onAddToCart={handleAddToCart} />
       <Footer />
     </div>
   )
