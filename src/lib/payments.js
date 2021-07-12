@@ -21,7 +21,6 @@ export async function initCheckout({ lineItems } = {}) {
     shippingAddressCollection: {
       allowedCountries: ["AU"],
   },
-    allow_promotion_codes: true,
     successUrl: `${WEBSITE_HOST}${PAYMENT_SUCCESS_PATH}?session_id={CHECKOUT_SESSION_ID}`,
     cancelUrl: `${WEBSITE_HOST}${PAYMENT_CANCEL_PATH}`,
   });
