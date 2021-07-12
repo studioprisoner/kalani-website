@@ -17,6 +17,7 @@ export async function initCheckout({ lineItems } = {}) {
 
   const { error } = await stripe.redirectToCheckout({
     mode: 'payment',
+    allow_promotion_codes: true,
     lineItems,
     shippingAddressCollection: {
       allowedCountries: ["AU"],
