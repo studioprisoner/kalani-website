@@ -45,10 +45,10 @@ exports.handler = async (event) => {
         allowed_countries: ["AUD"],
       },
       mode: "payment",
+      allow_promotion_codes: true,
       success_url: `${WEBSITE_HOST}${PAYMENT_SUCCESS_PATH}`,
       cancel_url: `${WEBSITE_HOST}${PAYMENT_CANCEL_PATH}`,
       line_items,
-      allow_promotion_codes: true,
     });
   } catch (error) {
     return {
